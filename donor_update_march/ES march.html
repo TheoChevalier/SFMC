@@ -1,0 +1,91 @@
+%%[
+   var @GiphyURL1
+   set @GiphyURL1 = Base64Encode('href="https://giphy.com/gifs/franklininstitute-space-tesla-l4pTsJiBeF7WzuApy"')
+
+	var @GiphyURL2
+   set @GiphyURL2 = Base64Encode('href="https://giphy.com/gifs/afv-funny-fail-lol-3ornjU8Cd8FW1nhG6s"')
+
+]%%
+<table style="background-color: #e7ebed; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; width: 100%; margin: 0 auto; padding: 0;" border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="background-color: #ffffff; width: 30px;" width="30">&nbsp;</td>
+<td align="center" valign="top">
+<table style="background-color: #ffffff; max-width: 700px!important; min-width: 100%; width: 100%;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="background-color: #ffffff; height: 12px;" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td style="background-color: #ffffff; color: #4b4b4b; font-size: 15px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: left; line-height: 150%;" valign="top">
+<table style="max-width: 350px; width: 350px;" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td>
+<table style="box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; margin-left: 8px; margin-top: 5px; margin-bottom: 8px; min-width: 300px;" cellspacing="0" cellpadding="0" border="1" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td style="padding: 8px; text-align: left; line-height: 125%; font-family: 'Open Sans', sans-serif; overflow-wrap: break-word;">
+
+<p><strong>Nos encantaría conocer tu opinión. ¿Tienes unos minutos para rellenar una breve encuesta?</strong></p>
+<p style="text-align: center;"><a style="background-color: #0c99d5; display: inline-block; padding: 10px 42px; margin-bottom: 10px; line-height: 200%; min-height: 32px; height: auto; color: #fff; font-size: 16px; font-weight: bold; text-transform: uppercase; text-align: center; text-decoration: none;" href="https://www.surveygizmo.com/s3/4233931/6081a7dcc7c3/?utm_source=newsletter-mofo&utm_medium=email&campaign=globales&utm_term=%%jobid%%" alias="calloutbutton">SÍ, LO HARÉ</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>%%[IF empty(FirstName) then]%% Hola, %%[elseif not empty(FirstName) then]%% Hola %%=ProperCase(FirstName)=%%, %%[endif]%%</p>
+
+<p>Hemos estado pensando mucho en ti últimamente. ¡De verdad! </p>
+
+<p> 	Verás, en Mozilla siempre estamos intentando idear programas y campañas que ayuden a mantener Internet sano <strong>y</strong> que sean interesantes, participativas y útiles para ti, que eres nuestro apoyo en el mundo real.</p>
+
+<table cellspacing="10">
+	<tr>
+		<td style="background-color: #ffffff; color: #4b4b4b; font-size: 15px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: left; line-height: 150%;"><p>A veces, una idea o programa es un éxito impresionante. (¡Guau, mira <strong>ese</strong> índice de respuesta!)</p></td>
+		<td><a style="text-decoration: underline; color: #0c99d5;" %%=Base64Decode(@GiphyURL1)=%%><img src="https://media.giphy.com/media/l4pTsJiBeF7WzuApy/giphy.gif" width="250" alt="Starman" style="display: block; border: 0; max-width: 100%; height: auto;" /></a></td>
+	</tr>
+	<tr>
+		<td style="background-color: #ffffff; color: #4b4b4b; font-size: 15px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: left; line-height: 150%;"><p>Otras, pues no tanto. (Oh, oh, qué poco éxito ha tenido. Mejor no lo repetimos.)</p></td>
+		<td><a style="text-decoration: underline; color: #0c99d5;" %%=Base64Decode(@GiphyURL2)=%%><img src="https://media.giphy.com/media/3ornjU8Cd8FW1nhG6s/giphy.gif" width="250" alt="Oops" style="display: block; border: 0; max-width: 100%; height: auto;" /></a></td>
+	</tr>
+</table>
+
+
+<p>
+<strong>En definitiva, siempre intentamos buscar la forma de tener el mayor impacto posible.</strong> Hemos hablado con expertos destacados y con algunas organizaciones, pero también queremos saber qué es lo que más te preocupa a ti. ¿Cómo afecta a <strong>tu</strong> vida la salud de Internet?
+</p>
+
+<p>Así que nos dijimos... ¿por qué no le pedimos directamente a nuestros grandes apoyos (¡ése eres tú!) que <a style="text-decoration: underline; color: #0c99d5; font-weight: bold;" href="https://www.surveygizmo.com/s3/4233931/6081a7dcc7c3/?utm_source=newsletter-mofo&utm_medium=email&campaign=globales&utm_term=%%jobid%%" alias="bodylink1">compartan su opinión</a>? Nos encantaría que pudieras tomarte unos minutos y compartir tu opinión con nosotros.</p>
+
+<p style="text-align: center;"><a style="background-color: #0c99d5; display: inline-block; padding: 10px 42px; margin-bottom: 10px; line-height: 200%; min-height: 32px; height: auto; color: #fff; font-size: 16px; font-weight: bold; text-transform: uppercase; text-align: center; text-decoration: none;" href="https://www.surveygizmo.com/s3/4233931/6081a7dcc7c3/?utm_source=newsletter-mofo&utm_medium=email&campaign=globales&utm_term=%%jobid%%" alias="button">RELLENA NUESTRA ENCUESTA</a></p>
+<p>Tu opinión y comentarios significan mucho para nosotros; en serio, en las próximas semanas me voy a dedicar a leer detalladamente todas las respuestas de la encuesta.</p>
+
+<p>Así que cuando tengas un ratito libre... ¿por qué no <a style="text-decoration: underline; color: #0c99d5; font-weight: bold;" href="https://www.surveygizmo.com/s3/4233931/6081a7dcc7c3/?utm_source=newsletter-mofo&utm_medium=email&campaign=globales&utm_term=%%jobid%%" alias="bodylink2">compartir tu opinión?</a></p>
+
+
+<p>¡Muchas gracias!</p>
+
+
+<p>Will Easton<br />
+	Mozilla
+</p>
+<br />
+
+<p><em>(imágenes de <a style="text-decoration: underline; color: #0c99d5;" href="https://www.giphy.com" alias="PSlink1">GIPHY</a>)</em></p>
+</td>
+</tr>
+<tr>
+<td style="background-color: #ffffff; height: 30px;" colspan="3">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color: #ffffff; width: 30px;" width="30">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
